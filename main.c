@@ -65,6 +65,48 @@ void PrintPaddingText(char *text)
     printf("\n");
 }
 
+// menu admin
+void menu_admin()
+{
+
+    char menus[8][50] = {
+        "Lihat Data Pelanggan",
+        "Hapus data Pelanggan",
+        "Tambah Menu Mie dan Harga",
+        "Lihat Menu Mie",
+        "Masukkan Bahan-bahan",
+        "Cek Saldo",
+        "Lihat jumlah Bahan yang di masukkan",
+        "Logout" // kembali ke menu utama, pilih penjual atau pembeli
+    };
+
+    int choice;
+    system("cls");
+    printf("======SELAMAT DATANG DI MENU ADMIN======\n");
+
+    for (int i = 0; i < 8; i++)
+    {
+        printf("%d. %s\n", i + 1, menus[i]);
+    }
+
+    // Get user input
+    printf("Pilih menu: ");
+    scanf("%d", &choice);
+
+    switch (choice)
+    {
+    case 1:
+        // admin_melihat_data_user();
+        print("ke menu melihat data user");
+        break;
+    case 8:
+        menu_utama();
+        break;
+    default:
+        printf("Input Salah! coba lagi!\n");
+        menu_admin();
+    }
+}
 
 // penjual
 void login_penjual()
