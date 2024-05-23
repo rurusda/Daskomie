@@ -7,21 +7,23 @@ dan jumlah butir cabai yg diminta serta bisa topup dan juga lihat saldo serta me
 riwayat pembelian
 
 Fitur Program :
-Fitur Penjual
-● Login penjual(user,pass)
-● Dapat melihat data pelanggan(pelanggan yg telah regis akun)
-● Dapat menghapus data pelanggan
-● Dapat memasukan jenis mie beserta harganya
-● Dapat memasukan bahan bahan untuk membuat mie
-● Dapat melihat saldo yang ada
-● Dapat melihat banyaknya bahan yg di input
-● Logout
-Fitur Pembeli
-● Dapat melakukan login menggunakan user dan pass
-● Melakukan registrasi untuk bisa login(nama,no hp,user,pass)
-● Dapat melihat daftar jenis mie (disorting berdasarkan harga)
-● Dapat membeli mie
-● Bisa melakukan topup saldo
-● Dapat mengecek saldo yang ada
-● Bisa melihat riwayat pembeliann
-● Logout
+
+    Fitur Penjual:
+    - Login penjual(user,pass)
+    - Dapat melihat data pelanggan(pelanggan yg telah regis akun)
+    - Dapat menghapus data pelanggan
+    - Dapat memasukan jenis mie beserta harganya
+    - Dapat memasukan bahan bahan untuk membuat mie
+    - Dapat melihat saldo yang ada
+    - Dapat melihat banyaknya bahan yg di input
+    - Logout
+
+    Fitur Pembeli:
+    - Dapat melakukan login menggunakan user dan pass
+    - Melakukan registrasi untuk bisa login(nama,no hp,user,pass)
+    - Dapat melihat daftar jenis mie (disorting berdasarkan harga)
+    - Dapat membeli mie
+    - Bisa melakukan topup saldo
+    - Dapat mengecek saldo yang ada
+    - Bisa melihat riwayat pembeliann
+    - Logout
