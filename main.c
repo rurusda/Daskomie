@@ -65,6 +65,38 @@ void PrintPaddingText(char *text)
     printf("\n");
 }
 
+
+// penjual
+void login_penjual()
+{
+    system("cls");
+
+    struct Admin admin = {"admin1", "pass1"};
+    PrintPaddingText("LOGIN ADMIN");
+
+    char username[50];
+    char password[50];
+    printf("Masukkan Username: ");
+    scanf("%s", &username);
+
+    printf("Masukkan Password: ");
+    scanf("%s", &password);
+
+    if (strcmp(admin.username, username) == 0 && strcmp(admin.pass, password) == 0)
+    {
+        printf("LOGIN BERHASIL\n");
+        PrintPaddingText("SELAMAT DATANG ADMIN");
+        // ke menu admin
+        system("pause");
+    }
+    else
+    {
+        printf("Username Atau Password Salah! Silakan Coba Lagi!\n");
+        // ke action jika salah username or password
+        system("pause");
+    }
+}
+
 // menu utama
 void menu_utama()
 {
@@ -99,6 +131,7 @@ void menu_utama()
     {
     case 1:
         printf("menu penjual");
+        login_penjual();
         break;
     case 2:
         printf("menu pembeli");
